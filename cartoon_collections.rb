@@ -8,7 +8,7 @@ end
 def summon_captain_planet(array)
   planetter_calls = []
   array.collect do |calls|
-    planetter_calls << "#{calls.capitalize}"
+    planetter_calls << "#{calls.capitalize}!"
   end
   planetter_calls
 end
